@@ -1,0 +1,196 @@
+/* GENERAL */
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+}
+
+p{
+    font-size: 1.3em;
+}
+
+header{
+    background-color:#1d1d1d;
+    color: #e1C386;
+    text-align: center;
+}
+
+
+h1{
+    font-family: 'malinda', arial, sans-serif; 
+    font-size: 2.5em; 
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+
+h2{
+    font-size: 2em;
+    width: 400px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+
+h3:before{
+    content: "« ";
+    color: gray;
+}
+
+h3{
+    font-size: 1.8em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3:after{
+    content : " »";
+    color: gray;
+}
+
+
+nav{
+    background-color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 3px 1px -1px  rgba(0,0,0,0.5);
+    font-size: 2em;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    display: inline;
+    padding: 0;
+}
+
+li{
+   list-style-type: none;
+   display: inline;
+   margin: 30px;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color:#1d1d1d;
+    color:white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* ID */
+
+#logo{
+    width: 10rem;
+}
+
+#contact{
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+#projets{
+    display :flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#picture-project img, #picture-project video{
+    width: 80%;
+    margin-bottom: 30px; 
+}
+
+
+/* CLASSES */
+
+
+.contener{
+    width: 80%;
+    margin: auto;
+}
+
+.projet{
+    width: 400px;
+    margin:30px;
+    display: inline-block;
+    background-color: white;
+    padding-bottom: 15px;
+    border: 0px black solid;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: 0.3s;
+}
+
+.projet:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.projet img{
+    min-width:400px;
+    height: 268px;
+}
+
+
+.picture{
+    width: 400px;
+    height: 266px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.projet .date-project{
+    font-size: 0.7em;
+    
+}
+
+.projet span{
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+/* POLICES */
+
+@font-face{
+    font-family: "malinda";
+    src: url("../src/malinda.otf") format('truetype');
+}
+
+
+
+/* MEDIA */
+
+@media all and (max-width: 1000px){
+    .projet { width: 100%; margin: 15px auto;}
+    .projet img { width : 100%; min-width: auto; height: auto; }
+    .projet .picture { width : 100%; ; height: auto; }
+    header h2 { width : 90% }
+}
+
+
+
+
