@@ -122,6 +122,13 @@ footer{
 
 /* CLASSES */
 
+.separator {
+    height: 2px;
+    max-width: 800px;
+    margin: 15px auto;
+    display: block;
+    background-color: #e1C386;
+}
 
 .contener{
     width: 80%;
