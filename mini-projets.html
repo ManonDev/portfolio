@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,39 +7,60 @@
     <link href="./design/styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="icon" type="image/ico" href="pictures/favicon.ico"/>
     <title>Manon Bayer | DevFE</title>
 </head>
 
 <body>
+    <!--HEADER-->
     <header>
         <h1>Manon Bayer</h1>
         <span class="separator"></span>
-        <h2>Mes projets Bootstrap</h2>
+        <h2>Développeuse Web Junior</h2>
+        <img src="pictures/logo.png" alt="logo" id="logo" title="Mon logo" >
     </header>
-
-    <nav>
-        <ul>
-            <li><a href="index.html" title="Aller à l'accueil">Accueil</a></li>
-            <li><a href="index.html.#projets" target="_bank" title="Mes projets">Projet</a></li>
-            <li><a href="#contact" title="Me contacter">Contact</a></li>
-
+    <!--NAV-->
+    <nav class="navbar">
+        <ul class="navbar-menu">
+            <li class="navbar-item">
+                <a class="navbar-link" href="index.html" title="Aller à l'accueil">
+                    <i class="fas fa-home navbar-icon"></i>
+                    <span class="navbar-title">Accueil</span>
+                </a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link" href="index.html#projets"  title="Mes projets">
+                    <i class="fas fa-project-diagram navbar-icon"></i>
+                    <span class="navbar-title">Projets</span>
+                </a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link" href="#" title="Formation">
+                    <i class="fas fa-graduation-cap navbar-icon"></i>
+                    <span class="navbar-title">Formation</span>
+                </a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link" href="#contact" title="Me contacter">
+                    <i class="fas fa-envelope navbar-icon"></i>
+                    <span class="navbar-title">Contact</span>
+                </a>
+            </li>
         </ul>
     </nav>
 
     <div class="contener">
 
         <section>
-            <h3>Bootstrap</h3>
-            <p>Bootstrap est une bibliothèque contenant les codes des langages suivants :
-                HTML5, CSS3 et JavaScript. C'est un projet opensource permettant de créer des applications
-                web et de les rendre responsive facilement, en s'adaptant aux différentes tailles d'écrans : PC, tablettes, Smartphone.</p>
-            <p>Voici quelques projets réalisés avec le framework Bootstrap :</p>
+            <h3>Mini-projets</h3>
+            <p>Voici quelques mini-projets, réalisés notamment avec le framework bootstrap.</p>
+            <p></p>
         
             <div id="projets">
-
+                <!--PROJET 1-->
                 <div class="projet">
-                    <a href="https://codepen.io/ManondevFE/pen/qBRQebE?editors=1000" target="_bank">
+                    <a href="https://musing-knuth-4dd486.netlify.app/" target="_bank">
                         <div class="picture">
                             <img src="pictures/harry-potter-logo.png" alt="Mon projet Harry Potter">
                         </div>
@@ -47,8 +68,9 @@
                         <span class="date-project"> 10/05/2021</span>
                     </a>
                 </div>
+                <!--PROJET 2-->
                 <div class="projet">
-                    <a href="https://codepen.io/ManondevFE/pen/NWdOrvw" target="_bank">
+                    <a href="https://dazzling-brown-0d4971.netlify.app/" target="_bank">
                         <div class="picture">
                             <img src="pictures/tesla-logo.png" alt="Mon projet Tesla">
                         </div>
@@ -56,6 +78,7 @@
                         <span class="date-project"> 10/05/2021</span>
                     </a>
                 </div>
+                <!--PROJET 3-->
                 <div class="projet">
                     <a href="https://codepen.io/ManondevFE/pen/wvgXgrQ" target="_bank">
                         <div class="picture">
@@ -66,6 +89,7 @@
                     </a>
                 </div>
         </section>
+        <!--CONTACT-->
         <section>
             <h3>Contact</h3>
             <div id="contact">
@@ -73,7 +97,7 @@
             </div>
         </section>
     </div>
-
+    <!--FOOTER-->
     <footer>
         <span>2021 &copy; Manon Bayer </span>
     </footer>

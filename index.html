@@ -1,79 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./design/styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    
     <link rel="icon" type="image/ico" href="pictures/favicon.ico"/>
     <title>Manon Bayer | DevFE</title>
 </head>
 
 <body>
+    <!--HEADER-->
     <header>
         <h1>Manon Bayer</h1>
         <span class="separator"></span>
-        
-        <h2>Developpeuse Web Front-end</h2>
-        <img src="pictures/logo.png" alt="logo" id="logo" title="Mon logo" >
+        <h2>Developpeuse Web Junior</h2>
+        <img src="pictures/logo.png" alt="logo" id="logo" title="Mon logo">
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html" title="Aller à l'accueil">Accueil</a></li>
-            <li><a href="#projets"  title="Mes projets">Projet</a></li>
-            <li><a href="#contact" title="Me contacter">Contact</a></li>
-            
+    <!--NAV-->
+    <nav class="navbar">
+        <ul class="navbar-menu">
+            <li class="navbar-item">
+                <a class="navbar-link" href="index.html" title="Aller à l'accueil">
+                    <i class="fas fa-home navbar-icon"></i>
+                    <span class="navbar-title">Accueil</span>
+                </a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link" href="#projets"  title="Mes projets">
+                    <i class="fas fa-project-diagram navbar-icon"></i>
+                    <span class="navbar-title">Projets</span>
+                </a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link" href="#" title="Formation">
+                    <i class="fas fa-graduation-cap navbar-icon"></i>
+                    <span class="navbar-title">Formation</span>
+                </a>
+            </li>
+            <li class="navbar-item">
+                <a class="navbar-link" href="#contact" title="Me contacter">
+                    <i class="fas fa-envelope navbar-icon"></i>
+                    <span class="navbar-title">Contact</span>
+                </a>
+            </li>
         </ul>
     </nav>
 
+    <!--INTRO-->
     <div class="contener">
         <section>
-            <h3>Bienvenue</h3>
+            <h3>Présentation</h3>
             <p>
-            Passionnée,créative et curieuse, je crée des sites web pour une expérience utilisateur (UX) ultime !
+            En formation chez STUDI promo CLARKE afin d'obtenir mon titre professionnel de développeuse web et web mobile
+            (RNCP niveau 5), dans le but d'atteindre le métier qui me passionne. Autodidacte dans un premier temps, et après quelques entraînements, ce fût la révélation ! 
+            A 31 ans, il n'est jamais trop tard pour trouver sa voie professionnelle et je me suis donc inscrite au sein d'une école afin d'obtenir le diplôme.
+            </p>
+            <p>
+            Je suis passionnée, créative, curieuse et dotée d'un fort esprit de réussite, je souhaite créer des sites web pour une expérience utilisateur (UX) ultime !
             Mon but : L'ergonomie, l'accessibilité, l'interaction, le design et la facilité d'utilisation, qui sont des éléments
             essentiels pour faire ressentir des émotions positives aux utilisateurs.   
             </p>
+            <p>
+            Dans ce portfolio, vous pouvez voir mes différents projets, qui seront complétés par d'autres au fur et mesure de ma formation, et sera donc mis à jour par de nouvelles fonctionnalités.
+            Vous y trouverez également mon CV, mes différentes formations ainsi que mon adresse mail pour me contacter.
+            </p>
         </section>
 
+        <!--PROJECTS-->
         <section>
             <h3>Projets</h3>
-
             <div id="projets">
-
+                <!--MINI-PROJETS-->
                 <div class="projet">
-                    <a href="bootstrap-project.html" target="_bank">
+                    <a href="mini-projets.html" target="_bank">
                         <div class="picture">
-                            <img src="pictures/bootstrap-logo.png" alt="Mon premier projet">
+                            <img src="pictures/mini-projet.jpg" alt="Mes mini-projets">
                         </div>
-                        <span>Mes projets Bootstrap</span>
+                        <span>Mini-projets</span>
                         <span class="date-project"> 10/05/2021</span>
                     </a>
                 </div>
-
+                <!--BOOTSTRAP-PROJECTS-->
                 <div class="projet">
-                    <a href="">
+                    <a href="bootstrap-projects.html">
                         <div class="picture">
-                            <img src="pictures/illustration_2.jpg" alt="Mon deuxième projet">
+                            <img src="pictures/evaluation.jpg" alt="Mes projets Bootstrap">
                         </div>
-                        <span>Projet en cours</span>
-                        <span class="date-project"> 23/03/2021</span>
+                        <span>Projets Bootstrap</span>
+                        <span class="date-project"> 20/06/2021</span>
                     </a>
                 </div>
-
+                <!--JAVASCRIPT-PROJECTS-->
                 <div class="projet">
-                    <a href="">
+                    <a href="javascript-projects.html">
                         <div class="picture">
-                            <img src="pictures/illustration_3.jpg" alt="Mon troisième projet">
+                            <img src="pictures/illustration_3.jpg" alt="Mes projets Javascript">
                         </div>
-                        <span>Le titre du projet</span>
-                        <span class="date-project"> 23/03/2021</span>
+                        <span>Projets Javascript</span>
+                        <span class="date-project"> 17/07/2021</span>
                     </a>
                 </div>
-
+                <!--CURRENT-PROJECTS-->
                 <div class="projet">
                     <a href="">
                         <div class="picture">
@@ -83,7 +115,7 @@
                         <span class="date-project"> 23/03/2021</span>
                     </a>
                 </div>
-
+                <!--CURRENT-PROJECTS-->
                 <div class="projet">
                     <a href="">
                         <div class="picture">
@@ -93,7 +125,7 @@
                         <span class="date-project"> 23/03/2021</span>
                     </a>
                 </div>
-
+                <!--CURRENT-PROJECTS-->
                 <div class="projet">
                     <a href="">
                         <div class="picture">
@@ -103,12 +135,10 @@
                         <span class="date-project"> 23/03/2021</span>
                     </a>
                 </div>
-
             </div>
-
-
         </section>
 
+        <!--CONTACT-->
         <section>
             <h3>Contact</h3>
             <div id="contact">
@@ -117,8 +147,9 @@
         </section>
     </div>
 
+    <!--FOOTER-->
     <footer>
-        <span>2021 &copy; Manon Bayer </span>
+        <span>2021 &copy; Manon Bayer</span>
     </footer>
 </body>
 </html>
