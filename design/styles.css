@@ -249,7 +249,7 @@ li:hover {
     text-align: center;
 }
 
-
+/* BUTTON */
 button, #more {
     font-family: 'Roboto', arial, sans-serif;
     padding: 15px;
@@ -261,7 +261,7 @@ button, #more {
     color: var(--dark-color);
 }
 
-button:hover {
+button:hover, #more:hover {
     background-color: var(--dark-color);
     color: var(--white-color);
     border: solid var(--white-color) 1px;
