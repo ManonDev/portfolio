@@ -41,13 +41,13 @@
                 </a>
             </li>
             <li class="navbar-item">
-                <a class="navbar-link" href="formations.html#formations" title="Formation">
+                <a class="navbar-link" href="formation.html#formations" title="Formation">
                     <i class="fas fa-graduation-cap navbar-icon"></i>
                     <span class="navbar-title">Formation</span>
                 </a>
             </li>
             <li class="navbar-item">
-                <a class="navbar-link" href="#contact" title="Me contacter">
+                <a class="navbar-link" href="index.html#contact" title="Me contacter">
                     <i class="fas fa-envelope navbar-icon"></i>
                     <span class="navbar-title">Contact</span>
                 </a>
@@ -56,30 +56,37 @@
     </nav>
 
     <div class="contener">
-        <!--PROJETS-->
         <section>
-            <h3>Projets Javascript</h3>
-            <p>Voici un petit projet javascript, effectué en cours sur la plateforme Udemy. Cette page sera complétée au fur et mesure par de nouveaux projets. </p>
-        
-            <div id="projets">
-
-                <div class="projet">
-                    <a href="https://jeu-du-serpent-js.netlify.app" target="_blank">
-                        <div class="picture">
-                            <img src="pictures/snake-game.jpg" alt="Jeu du serpent">
-                        </div>
-                        <span>Le jeu du serpent</span>
-                        <span class="date-project"> 17/07/2021</span>
-                    </a>
+            <h3>Mes formations</h3>
+            <div id="formations">
+                <!--FORMATION STUDI-->
+                <div class="formation">
+                    <div class="picture-formation">
+                        <img src="pictures/studi.jpg" alt="Studi">
+                    </div>
+                    <div class="text-formation">
+                        <p class="title">Développement web et web mobile</p>
+                        <p class="text">Titre professionnel RNCP Bac +2 (en cours)</p>
+                        <a href="#">
+                            <button type="button" id="more">En savoir plus</button>
+                        </a>
+                    </div>
                 </div>
+                <!--FORMATION ADRAR-->
+                <div class="formation">
+                    <div class="picture-formation">
+                        <img src="pictures/adrar.jpg" alt="Adrar">
+                    </div>
+                    <div>
+                        <p class="title">Secrétaire comptable</p>
+                        <p class="text">Titre professionnel RNCP Bac (obtenu)</p>
+                    </div>
+                </div>              
             </div>
-        </section>
-
-        <!--CONTACT-->
-        <section>
-            <h3>Contact</h3>
-            <div id="contact">
-                <p>Si vous voulez me contacter, n'hésitez pas à m'envoyer un mail à <a href="mailto:#"><b> manonbayer.pro@gmail.com</b></a>.</p>
+            <div class="cv">
+                <a href="src/cv.pdf" target="_blank">
+                    <button type="button" id="cv">Voir mon CV</button>
+                </a>
             </div>
         </section>
     </div>
