@@ -90,7 +90,8 @@ a {
 #logo {
     width: 15rem;
     animation-name: flipInY;
-    animation-duration: 4s;  
+    animation-duration: 4s; 
+    border-radius: 50%;
 }
 
 #presentation  {
@@ -395,6 +396,14 @@ footer {
     #program { flex-direction: column; }
     /* FOOTER */
     #copyright span { display: block;}
+}
+
+
+/* MAINTENANCE */
+#maintenance {
+    background-color: #f4f7f6;
+    color: #1d1d1d;
+    text-align: center;
 }
 
 
