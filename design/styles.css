@@ -13,7 +13,7 @@
 
 body {
     font-family: 'Roboto', arial, sans-serif;
-    background-color: var(--dark-color);
+
     margin: 0;
     padding: 0;
     color: var(--white-color-texte);
@@ -28,10 +28,16 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--dark-color);
-    color: var(--orange-color);
+    color: white;
     text-align: center;
     height: 100vh;  
+}
+
+#header {
+    background-image: url('../pictures/main-picture.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
 }
 
 h1 {
@@ -40,6 +46,7 @@ h1 {
 }
 
 h2 {
+    text-transform: uppercase;
     font-size: 2.5em;    
     padding: 15px;
 }
@@ -72,15 +79,6 @@ a {
     color: black;
 }
 
-.separator {
-    height: 60vh;
-    width: 1px;
-    display: block;
-    background-color: var(--orange-color);
-    animation-name: glissement;
-    animation-duration: 2s;
-    animation-fill-mode: none;
-}
 
 .contener {
     width: 80%;
@@ -88,7 +86,7 @@ a {
 }
 
 #logo {
-    width: 15rem;
+    width: 8rem;
     animation-name: flipInY;
     animation-duration: 4s; 
     border-radius: 50%;
@@ -104,7 +102,6 @@ a {
 
 /* NAV */
 .navbar {
-    background-color: var(--dark-color);
     text-align: center;
     top:0px;
     position: fixed;
