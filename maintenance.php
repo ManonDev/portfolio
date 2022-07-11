@@ -9,7 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    
-        <link rel="icon" type="image/ico" href="pictures/favicon.ico"/>
+        <link rel="icon" type="image/ico" href="pictures/logo.png"/>
         <title>Manon Bayer | DevFE</title>
     </head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -25,46 +25,8 @@
 
     <body>
 
-        <div id="header">
-            <!--HEADER-->
-            <header>
-                    <div>
-                        <h1>Manon Bayer</h1>
-                        <h2>Développeuse Web Junior</h2>
-                    </div>
-            </header>
-
-            <!--NAV-->
-            <nav class="navbar">
-                <img src="pictures/logo.png" alt="logo" id="logo" title="Mon logo">
-                <ul class="navbar-menu">
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="index.html" title="Aller à l'accueil">
-                            <i class="fas fa-home navbar-icon"></i>
-                            <span class="navbar-title">Accueil</span>
-                        </a>
-                    </li>
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="#projets"  title="Mes projets">
-                            <i class="fas fa-project-diagram navbar-icon"></i>
-                            <span class="navbar-title">Projets</span>
-                        </a>
-                    </li>
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="formation.html#formations" title="Formation">
-                            <i class="fas fa-graduation-cap navbar-icon"></i>
-                            <span class="navbar-title">Formation</span>
-                        </a>
-                    </li>
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="#contact" title="Me contacter">
-                            <i class="fas fa-envelope navbar-icon"></i>
-                            <span class="navbar-title">Contact</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+         <!-- HEADER INCLUDE -->
+        <?php include('design/header.php'); ?>
 
         <!--INTRO-->
         <div class="contener">
@@ -131,16 +93,7 @@
             </section>
         </div>
 
-        <!--FOOTER-->
-        <footer>
-            <div id="link">
-                <a href="https://www.linkedin.com/in/manon-bayer-dev/" target="_blank"><i class="fab fa-linkedin"></i></a> 
-                <a href="https://github.com/ManonDev" target="_blank"><i class="fab fa-github"></i></a> 
-            </div>
-            <div id="copyright">
-                <span>Copyright &copy; 2021 Portfolio - Manon Bayer.</span> 
-                <span>All Rights Reserved</span>
-            </div>
-        </footer>
+        <!-- FOOTER INCLUDE -->
+        <?php include('design/footer.php'); ?>
     </body>
 </html>
