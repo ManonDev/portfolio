@@ -4,19 +4,21 @@
     </head>
 
     <body>
-
-        <div id="header">
+        <div id="main">
             <!--HEADER-->
             <header>
-                <div>
                     <!--NAV-->
                     <nav class="navbar">
-                        <img src="pictures/logo.png" alt="logo" id="logo" title="Mon logo">
+                       
                         <ul class="navbar-menu">
-                            <li></li>
+                            <li id="logo">
+                                <img src="pictures/logo2.png" alt="logo" class="logo animate__animated animate__flipInY" title="Mon logo">
+                            </li>
                             <li class="navbar-item">
                                 <a class="navbar-link" href="index.html" title="Aller à l'accueil">
-                                    <i class="fas fa-home navbar-icon"></i>
+                                    <i>
+                                    <img src="pictures/logo2.png" alt="logo animate__animated animate__flipInY" class="logo" title="Mon logo">
+                                    </i>
                                     <span class="navbar-title">Accueil</span>
                                 </a>
                             </li>
@@ -40,12 +42,16 @@
                             </li>
                         </ul>
                     </nav>
-                </div>
-                <div id="name">
-                    <h1>Manon Bayer</h1>
-                    <h2>Développeuse Web Junior</h2>
-                </div>
             </header>
+            <div id="name">
+                    <h1>Manon Bayer</h1>
+                    <h2 id="dev" data-label="Développeuse Web Junior"></h2>
+            </div>
+            <div>
+                
+            </div>
         </div>
+        <script src="animate.js"></script>
+        <script src="scroll.js"></script>
     </body>
 </html>
