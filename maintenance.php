@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta type="description" content="Portfolio 2021, contenant divers projets web.">
+        <meta name="robots" content="noindex, nofollow">
         <link href="./design/sass_css/default.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -16,13 +17,7 @@
         <title>Manon Bayer | DevFE</title>
     </head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JK7376M842"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'G-JK7376M842');
     </script>
     <!-- End Global site tag (gtag.js) - Google Analytics -->
 
@@ -38,15 +33,7 @@
                 <div id="presentation">
                     <p>
                    
-                    <p>
-                    Je suis passionnée, créative, curieuse et dotée d'un fort esprit de réussite, je souhaite créer des sites web pour une expérience utilisateur (UX) ultime !
-                    Mon but : L'ergonomie, l'accessibilité, l'interaction, le design et la facilité d'utilisation, qui sont des éléments
-                    essentiels pour faire ressentir des émotions positives aux utilisateurs.   
-                    </p>
-                    <p>
-                    Dans ce portfolio, vous pouvez voir mes différents projets, qui seront complétés par d'autres au fur et mesure de ma formation, et sera donc mis à jour par de nouvelles fonctionnalités.
-                    Vous y trouverez également mon CV, mes différentes formations ainsi que mon adresse mail pour me contacter.
-                    </p>
+                   
                 </div>
             </section>
 
